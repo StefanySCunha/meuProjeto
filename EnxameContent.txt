@@ -1,0 +1,202 @@
+menu
+------------------------------------------
+Home
+Specialties
+Products
+Services
+Domain
+Localization
+Contact
+Login
+
+
+<!-- home -->
+------------------------------------------
+Enxame Hospital Webhosting
+The best plans for your project
+
+
+
+<!-- Specialties -->
+------------------------------------------
+Specialties
+Lorem, ipsum
+
+img - safe.png
+ Security
+Lorem ipsum 
+
+img - speed.png
+ Velocity
+Delectus, iure 
+img - support.png
+Support
+Laboriosam nostrum eveniet,
+
+
+<!-- Products -->
+------------------------------------------
+Products
+Prices and plans
+
+<!-- card1 -->
+US$ 1.06
+Standard
+2GB of space in disk
+10 Sub-domains
+25 Email accounts
+C-panel
+btn-default - Select
+
+<!-- card2 -->
+US$ 2.01
+Dedicated
+5GB of space in disk
+20 Sub-domains
+50 Email accounts
+C-panel
+btn-default - Select
+
+<!-- card3 -->
+recommended - US$ 3.08
+Dedicated plus
+10GB of space in disk
+100 Sub-domains
+100 Email accounts
+C-panel
+btn-default - Select
+
+<!-- card4 -->
+Cloud
+20GB of space in disk
+200 Sub-domains
+200 Email accounts
+C-panel
+btn-default - Select
+
+
+<!-- Services -->
+------------------------------------------
+h1 - Services
+p - The worst services today
+thead
+th - Services
+th - Description
+th - $Price
+th - Options
+
+tbody
+<!-- linha1 -->
+td - Stalker
+td - Stalker all people
+td - U$ 60.00
+a default-btn td - + -
+
+<!-- linha2 -->
+td - Attacks
+td - Personal Attacks
+td - U$ 150.00
+a default-btn td - + -
+
+<!-- linha3 -->
+td - Dissimulation
+td - Fake News Dissimulation
+td - U$ 90.00
+a default-btn td - + -
+
+<!-- linha4 -->
+td - Assistance
+td - Present Day
+td - U$ 72.00
+a default-btn td - + -
+
+<!-- linha5 -->
+td -Erase
+td - Erase Problems
+td - U$ 120.00
+a default-btn td - + -
+
+<!-- linha6 -->
+td -Fix
+td - Fix errors
+td - U$ 60.00
+a default-btn td - + -
+
+<!-- linha7 -->
+td - Red Line
+td - Store Data
+td - U$ 80.00
+a default-btn td - + -
+
+<!-- linha8 -->
+td - Global
+td - Global Help
+td - U$ 110.00
+a default-btn td - + -
+
+<!-- linha9 -->
+td - Hot
+td - Hot Data
+td - U$ 140.00
+a default-btn td - + -
+
+<!-- linha10 -->
+td - Cold
+td - Cold Data
+td - U$ 130.00
+a default-btn td - + -
+
+
+<!-- Search Domain -->
+------------------------------------------
+Search Domain 
+Check if the domain is avaliable for use
+
+
+<!--Localization-->
+------------------------------------------
+Localization
+Try to find us on the map.
+
+
+<!--Contact-->
+------------------------------------------
+Contact
+Send a message and maybe we'll answer one day.
+
+
+<!--Footer-->
+------------------------------------------
+On line Help
+Leprous pigs from outer space attacking our planet Trash rising.
+contact@@enxame.rock
+
+
+Social Media
+ul socialMedia
+f
+y
+t
+g
+x
+
+
+<!--Login-->
+------------------------------------------
+Login
+User authentication.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
