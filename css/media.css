@@ -6,3 +6,7 @@ principais breakpoints
 1025px - 1200px: desktops, telas grandes (widescreen)
 1201px e a cima: telas enormes TVs
 */
+
+@media screen and (max-width:1200px){
+    
+}
