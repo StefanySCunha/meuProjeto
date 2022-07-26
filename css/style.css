@@ -76,6 +76,11 @@ span {
     filter: invert(100%);
 }
 
+/* menuHamburguer */
+.menuC button {
+    display: none;
+}
+
 .menuI {
     position: absolute;
     display: flex;
