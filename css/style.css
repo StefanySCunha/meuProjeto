@@ -1,6 +1,7 @@
 /*global*/
-@font-face{ /*instalar/importar a fonte*/
-    font-family: OpenSans;
+
+@font-face {
+    font-family: 'OpenSans';
     src: url('../font/OpenSans-Regular.ttf');
 }
 
@@ -9,54 +10,57 @@
     src: url('../font/Type\ Icons\ Color.ttf');
 }
 
-html{
-    font-family: 'OpenSans'; 
+html {
+    font-family: 'OpenSans';
+    scroll-behavior: smooth;
 }
 
-textarea{
+textarea {
     font-family: 'OpenSans';
 }
 
-h1{
+h1 {
     font-size: 52px;
 }
 
-h1{
+h2 {
     font-size: 32px;
 }
 
-p{
+p {
     font-size: 16px;
     line-height: 6vh;
 }
 
-a{
+a {
     transition: .5s;
     text-decoration: none;
 }
 
-h1,h2{
+h1,
+h2 {
     line-height: 10vh;
-
 }
 
-section{
+section {
     padding-top: 70px;
 }
 
-iframe{
+iframe {
     width: 100%;
     height: 500px;
     border: 0;
-    filter: invert();
+    filter: invert(100%);
 }
 
-span{
+span {
     background-color: SlateBlue;
     padding: 0 10px;
 }
 
-/*navegação*/
+
+/*nav*/
+
 .menuC {
     width: 100%;
     height: 70px;
@@ -66,43 +70,43 @@ span{
     z-index: 99;
 }
 
-.logo{
+.logo {
     height: 50px;
     padding: 10px 20px;
     filter: invert(100%);
 }
 
-.menuItens{
+.menuI {
     position: absolute;
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
     top: 0;
     right: 0;
 }
 
-.menuItens li{
+.menuI li {
     line-height: 70px;
     height: 70px;
 }
 
-.menuItens li a{
+.menuI li a {
     line-height: 70px;
     height: 70px;
     padding: 25px 10px;
-    color: aliceblue;  
+    color: aliceblue;
     text-transform: uppercase;
 }
 
-.menuItens li a:hover{
-    padding: 25px 40px;
-    color: aliceblue;  
-    background-color: mediumblue;
+.menuI li a:hover {
+    padding: 25px 20px;
+    color: #333;
+    background-color: aliceblue;
 }
 
-.btn-default{
-    background-color:mediumblue;
+.btn-default {
+    background-color: LightSeaGreen;
     border: 1px solid white;
-    border-radius: 10px; /*deixar o botão login mais arredondado*/
+    border-radius: 5px;
     padding: 10px 20px !important;
     margin-right: 20px;
     margin-left: 10px;
@@ -110,13 +114,13 @@ span{
 }
 
 .btn-default:hover {
-    background-color: deepskyblue !important;
+    background-color: MediumTurquoise !important;
 }
 
 
-/*Home*/
+/*home*/
 
-.homeC{
+.homeC {
     background-image: url('../img/img3.png');
     background-position: center;
     background-size: cover;
@@ -125,37 +129,49 @@ span{
     text-align: center;
 }
 
-.homeC h1, .homeC h2{
+.homeC h1,
+.homeC h2 {
     color: aliceblue;
 }
 
-/*Specialties*/
 
-.specialtiesC{
+/*specialties*/
+
+.specialtiesC {
     text-align: center;
 }
 
-.specialtiesC h1 .specialtiesC h2{
+.specialtiesC h1,
+.specialtiesC h2 {
     color: #333;
 }
 
 .specialtiesI {
-    background-color: gainsboro;
+    background-color: Gainsboro;
 }
 
-.specialtiesI ul{
-    display: flex;
+.specialtiesI ul {
+    /* display: flex;
     width: 90%;
     position: relative;
+    margin: 0 auto; */
+    width: 80%;
+    height: auto;
     margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    padding: 20px;
 }
 
-.specialtiesI ul li{
+.specialtiesI ul li {
     flex: 1 1 250px;
     padding: 50px;
 }
 
-.specialtiesI ul li img{
+.specialtiesI ul li img {
     filter: opacity(.4);
     transition: .5s;
 }
@@ -165,12 +181,14 @@ span{
     transition: .5s;
 }
 
-.specialtiesI ul li p{
-margin-bottom: 20px !important;
+.specialtiesI ul li p {
+    margin-bottom: 20px !important;
 }
-/*Products*/
 
-.productsC{
+
+/*products*/
+
+.productsC {
     width: 100%;
     height: auto;
     text-align: center;
@@ -178,7 +196,7 @@ margin-bottom: 20px !important;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-    padding: 10em 2em;
+    padding: 10em 0;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -186,26 +204,26 @@ margin-bottom: 20px !important;
     position: relative;
 }
 
-.productsC h1{
+.productsC h1 {
     color: aliceblue;
     padding: 20px;
     position: absolute;
     top: 20px;
 }
 
-.productsC h2{
+.productsC h2 {
     color: aliceblue;
     padding: 20px;
     position: absolute;
     top: 100px;
 }
 
-.productsI{
-display: flex;
-justify-content: space-between;
-margin-top: 30px;
-width: 90%;
-margin: 50px auto;
+.productsI {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    width: 90%;
+    margin: 50px auto;
 }
 
 .productsCard {
@@ -214,19 +232,24 @@ margin: 50px auto;
     margin: 5px 20px;
 }
 
-.productsCard ul li{
+.productsCard ul li {
     line-height: 50px;
     height: 50px;
-    background-color: LightGrey;
+    background-color: Gainsboro;
     color: #333;
 }
 
-.productsCard .Price{
+.productsCard ul li:last-child {
+    border-radius: 0 0 20px 20px;
+    padding-bottom: 20px;
+}
+
+.productsCard .Price {
     width: 120px;
     height: 120px;
     line-height: 120px;
     border-radius: 50%;
-    background-color: slateblue;
+    background-color: SlateBlue;
     color: aliceblue;
     text-align: center;
     font-size: 20px;
@@ -234,87 +257,190 @@ margin: 50px auto;
     margin: 0 auto -40px auto;
 }
 
-.productsCard .TituloCard{
+.productsCard .TituloCard {
     text-transform: uppercase;
     font-size: 20px;
     font-weight: bold;
     color: aliceblue;
-    background-color: mediumblue;
+    background-color: Navy;
     padding-top: 50px;
     padding-bottom: 20px;
+    border-radius: 20px 20px 0 0;
 }
 
-.productsCard .recommended{
-    background-color: darkred;
+.productsCard .recommended {
+    background-color: DarkRed;
 }
 
-/*Services*/
-.servicesC{
+
+/*services*/
+
+.servicesC {
     text-align: center;
 }
 
-.servicesC h1, .servicesC h2{
+.servicesC h1,
+.servicesC h2 {
     color: #333;
 }
 
-.servicesC table{
+.servicesI table {
     width: 100%;
 }
 
-.servicesC table th{
+.servicesI table th {
     font-weight: bold;
     padding: 50px 0 20px 0;
     border-bottom: 1px solid #333;
 }
 
-.servicesC table td{
+.servicesI table td {
     padding: 20px;
 }
 
-/*Domain*/
-.domainC{
-    background-image: url('../img/img7.jfif');
+
+/*domain*/
+
+.domainC {
+    background-image: url('../img/img7.jpg');
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
     width: 100%;
     height: auto;
-    padding: 10em 2em;
+    padding: 10em 0;
     text-align: center;
-}
-
-.domainC h1, .domainC h2{
-    color: aliceblue;
-}
-
-.domainI{
     margin: 0 auto;
 }
 
-.domainC input[type=text]{
-   width: 80%;
-   height: 50px;
-   padding: 5px;
-   color: #333;
-   margin-top: 20px;
-   border-radius: 10px; 
+.domainC h1,
+.domainC h2 {
+    color: aliceblue;
 }
 
-.domainC input[type=submit]{
+.domainI {
+    margin: 0 auto;
+}
+
+.domainI input[type=text] {
+    width: 80%;
+    height: 50px;
+    padding: 5px;
+    color: #333;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 0;
+}
+
+.domainI input[type=submit] {
     width: 120px;
     height: 60px;
     padding: 5px;
-    color:aliceblue;
+    color: aliceblue;
     font-size: 16px;
     margin-top: 20px;
-    border-radius: 10px; 
+    border-radius: 10px;
+    border: 0;
 }
 
 
-/*Localization*/
+/*localization*/
 
-.localizationC{
+.localizationC {
     width: 100%;
     height: 500px;
     text-align: center;
+}
+
+
+/*contact*/
+
+.contactC {
+    text-align: center;
+    padding: 2em 0;
+}
+
+.contactC h1 {
+    margin-top: 100px;
+}
+
+.contactC h1,
+.contactC h2 {
+    color: #333;
+}
+
+.contactI {
+    width: 80%;
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+    padding: 2em 0;
+}
+
+.contactI input,
+.contactI textarea {
+    width: 200px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid rgb(180, 180, 180);
+    margin-top: 30px;
+}
+
+.contactI textarea {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    width: 450px;
+    height: 150px;
+    margin-top: 30px;
+}
+
+
+/*footer*/
+
+.footerC {
+    background-color: #333;
+    color: aliceblue;
+    text-align: center;
+    padding: 2em 0;
+}
+
+.footerC h1 {
+    font-size: 24px;
+}
+
+.footerC h2 {
+    font-size: 16px;
+}
+
+.footerI ul li {
+    display: inline;
+}
+
+.footerI ul li a {
+    font-family: 'TypeIcons';
+    display: inline;
+    font-size: 50px;
+    line-height: 70px;
+    height: 70px;
+}
+
+.footerI ul li a:hover {
+    filter: invert(30%);
+    padding: 20px;
+}
+
+.footerI h2 {
+    font-size: 16px;
+    margin-bottom: 0;
+    line-height: 20px;
+    height: 20px;
+}
+
+
+/*login*/
+
+.contactI h2 a {
+    font-size: 16px;
 }
