@@ -88,7 +88,7 @@ principais breakpoints
     }
     /* menuHamburguer*/ 
     .menuC button {
-        display: none;
+        display: block;
         height: 50px;
         background-color: transparent;
         border: none;
@@ -101,6 +101,17 @@ principais breakpoints
     .menuC button img{
         height: 50px;
 
+    }
+    .menuI {
+        background-color: red;
+        position: absolute;
+        height: 10px;
+        width: 100%;        
+        display: block;
+        top: 0;
+        transition: all .5s;
+        margin-top: 70px;
+        overflow: hidden;
     }
     /* menu */
     /* home*/
