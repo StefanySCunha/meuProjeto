@@ -102,16 +102,31 @@ principais breakpoints
         height: 50px;
 
     }
+    .menuC button:focus~.menuI{
+        height: 400px;
+    }
     .menuI {
-        background-color: red;
+        background-color: #333;
         position: absolute;
-        height: 10px;
+        height: 0px;
         width: 100%;        
         display: block;
         top: 0;
         transition: all .5s;
         margin-top: 70px;
         overflow: hidden;
+    }
+    .menuI li{
+        line-height: 40px;
+        height: 40px;
+    }
+    .menuI li a{
+        font-size: 14px ;
+        line-height: 14px;
+        height: 14px;
+    }
+    .menuI li a:hover {
+        padding: 10px 5px;
     }
     /* menu */
     /* home*/
